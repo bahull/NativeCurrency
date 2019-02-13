@@ -9,11 +9,15 @@
     "lint:fix": "eslint app/ --fix"
   },
   "dependencies": {
+    "@expo/vector-icons": "6.2.0",
     "babel-eslint": "^10.0.1",
+    "color": "3.0.0",
     "expo": "^32.0.0",
+    "moment": "2.18.1",
     "prop-types": "^15.7.1",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-extended-stylesheet": "0.8.0"
   },
   "devDependencies": {
     "babel-preset-expo": "^5.0.0",
