@@ -6,6 +6,7 @@ const imageWidth = Dimensions.get('window').width / 2;
 export default EStyleSheet.create({
   container: {
     alignItems: 'center',
+    justifyContent: 'center',
   },
   containerImage: {
     alignItems: 'center',
@@ -14,6 +15,9 @@ export default EStyleSheet.create({
     height: imageWidth,
   },
   logo: {
+    width: imageWidth / 2,
+  },
+  image: {
     width: imageWidth / 2,
   },
   text: {

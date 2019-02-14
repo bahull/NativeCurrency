@@ -5,15 +5,15 @@ import {
 import styles from './styles';
 
 const Logo = () => (
-  <View>
+  <View style={styles.container}>
     <ImageBackground
       resizeMode="contain"
       style={styles.containerImage}
       source={require('./images/background.png')}
     >
-      <Image srouce={require('./images/logo.png')} />
+      <Image resizeMode="contain" style={styles.image} source={require('./images/logo.png')} />
     </ImageBackground>
-    <Text>Currency Converter</Text>
+    <Text style={styles.text}>Currency Converter</Text>
   </View>
 );
 
